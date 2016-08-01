@@ -25,7 +25,13 @@ namespace WebpackPractice
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/Site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/indexStyle").Include(
+                      "~/Content/Index.css"));
+
+            bundles.Add(new StyleBundle("~/Content/aboutStyle").Include(
+                      "~/Content/About.css"));
 
             bundles.Add(new ScriptBundle("~/scripts/common").Include(
                        "~/Scripts/jquery-1.10.2.js",
