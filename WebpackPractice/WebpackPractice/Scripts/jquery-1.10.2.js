@@ -25,7 +25,7 @@
  *
  * Date: 2013-07-03T13:48Z
  */
-(function( window, undefined ) {
+const jQuery = (function( window, undefined ) {
 
 // Can't do this because several apps including ASP.NET trace
 // the stack via arguments.caller.callee and Firefox dies if
@@ -9800,4 +9800,6 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 	}
 }
 
-})( window );
+})(window);
+
+export default jQuery;

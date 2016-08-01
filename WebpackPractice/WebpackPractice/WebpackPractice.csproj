@@ -207,9 +207,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\About.css" />
+    <Content Include="bundle\chunk.about.js" />
+    <Content Include="bundle\chunk.common.js" />
+    <Content Include="bundle\chunk.index.js" />
+    <Content Include="bundle\common.css" />
+    <Content Include="bundle\index.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\index.css" />
+    <Content Include="Content\Index.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -217,6 +223,7 @@
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\app\about.js" />
+    <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\index.js" />
     <Content Include="Scripts\app\message-extension.js" />
     <Content Include="Scripts\app\message.js" />
@@ -225,6 +232,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -250,6 +258,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
