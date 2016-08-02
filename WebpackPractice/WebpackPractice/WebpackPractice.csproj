@@ -207,11 +207,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\About.css" />
-    <Content Include="bundle\chunk.about.js" />
-    <Content Include="bundle\chunk.common.js" />
-    <Content Include="bundle\chunk.index.js" />
-    <Content Include="bundle\common.css" />
-    <Content Include="bundle\index.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\index.css" />
@@ -262,6 +257,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bundle\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
