@@ -1,3 +1,3 @@
 ﻿(function ($) {
-    $("p").text("This is about page");
+    $("p").text(message.GetMessageAbout);
 })(jQuery)

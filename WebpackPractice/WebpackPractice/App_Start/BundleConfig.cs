@@ -38,9 +38,11 @@ namespace WebpackPractice
                        "~/Scripts/bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/scripts/index").Include(
+                 "~/Scripts/app/message.js",
                 "~/Scripts/app/index.js"));
 
             bundles.Add(new ScriptBundle("~/scripts/about").Include(
+                "~/Scripts/app/message.js",
                 "~/Scripts/app/about.js"));
         }
     }

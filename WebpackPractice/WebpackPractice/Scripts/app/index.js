@@ -1,3 +1,3 @@
 ﻿(function ($) {
-    $("p").text("This is index page");
+    $("p").text(message.GetMessageIndex());
 })(jQuery)
