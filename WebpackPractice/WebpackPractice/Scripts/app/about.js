@@ -1,7 +1,8 @@
-﻿import jQuery from '../jquery-1.10.2.js';
-import '../../Content/About.css';
-import {message} from './message.js';
+﻿var jQuery = require('../jquery-1.10.2.js');
+var message = require('./message.js');
+
+require('../../Content/About.css');
 
 (function ($) {
-    $("p").text(message.GetMessageAbout);
+    $("p").text(message.GetMessageAbout());
 })(jQuery)
