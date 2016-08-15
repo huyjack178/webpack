@@ -31,3 +31,5 @@ $tf*/
 node_modules
 packages
 bundle
+*.suo
+.vs/config/applicationhost.config
